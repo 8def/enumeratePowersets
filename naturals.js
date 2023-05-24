@@ -1,4 +1,4 @@
-var limit = 20 // how many primes used to construct the powerset
+var limit = 20 // all primes used in the power set will be smaller than limit
 
 //biject P(p) and P(n)
 const ppBiject = arr => {
