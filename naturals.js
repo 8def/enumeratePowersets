@@ -37,7 +37,7 @@ const pBiject = arr => {
 return bijection
 }
 
-// generate a powerset as a multidimensional array given an array of numbers
+// generate a powerset as a multidimensional array given an array of numbers, provided by chatGPT3
 const powerSet = nums => {
 	const result = [];
 	backtrack([], 0);
@@ -60,7 +60,7 @@ const generatePrimes = limit => {
 return primes
 }
 
-// determine if a number is prime
+// determine if a number is prime, provided by stackflow
 const isPrime = num => {
 	for(let i = 2, s = Math.sqrt(num); i <= s; i++) {
         	if(num % i === 0) return false;
